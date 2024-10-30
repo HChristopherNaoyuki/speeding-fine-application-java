@@ -17,9 +17,11 @@ public class SpeedingFines extends Fine
     public void PrintFine()
     {
         // Displaying the citizen's details and the fine amount with two decimal places
-        System.out.println("Citizen Name: " + getCitizenName());
-        System.out.println("Speed: " + getSpeed() + "km");
+        System.out.println("*****************************************");
+        System.out.println("PERSON: " + getCitizenName());
+        System.out.println("SPEED: " + getSpeed() + "km");
         // Print fine payable with two decimal places using printf
-        System.out.printf("Total Fine Payable: R%.2f%n", getFinePayable());
+        System.out.printf("FINE PAYABLE: R%.2f%n", getFinePayable());
+        System.out.println("*****************************************");
     }
 }

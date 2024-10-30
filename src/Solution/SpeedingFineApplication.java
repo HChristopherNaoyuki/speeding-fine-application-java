@@ -11,11 +11,11 @@ public class SpeedingFineApplication
         Scanner scanner = new Scanner(System.in);
 
         // Prompting the user to enter the citizen's name
-        System.out.print("Enter Citizen's Name: ");
+        System.out.print("Enter the person's name: ");
         String name = scanner.nextLine();
 
         // Prompting the user to enter the citizen's speed
-        System.out.print("Enter Citizen's Speed (in km): ");
+        System.out.print("Enter person's speed (in km): ");
         int speed = scanner.nextInt();
 
         // Creating an instance of SpeedingFines with user input
